@@ -33,6 +33,7 @@
 	<dllmap dll="libcairo-2.dll" target="$mono_libdir/libcairo.2.dylib" os="osx" />
 	<dllmap dll="libcups" target="libcups.so.2" os="!windows"/>
 	<dllmap dll="libcups" target="libcups.dylib" os="osx"/>
+	<dllmap dll="libusb-1.0" target="libusb-1.0.so.0" os="!windows"/>
 	<dllmap dll="i:kernel32.dll">
 		<dllentry dll="__Internal" name="CopyMemory" target="mono_win32_compat_CopyMemory"/>
 		<dllentry dll="__Internal" name="FillMemory" target="mono_win32_compat_FillMemory"/>
